@@ -66,7 +66,7 @@ hr {
   color: inherit;
   background-color: currentColor;
   border: 0;
-  opacity: 1;
+  opacity: 0;
 }
 
 hr:not([size]) {
@@ -10939,7 +10939,7 @@ hr.divider-light {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 4.5rem);
-  background-image:url("../assets/img/bg-masthead.jpg");
+  background: linear-gradient(to bottom, rgba(92, 77, 66, 1) 0%, rgba(92, 77, 66, 0.8) 100%), url("../assets/img/bg-masthead.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
